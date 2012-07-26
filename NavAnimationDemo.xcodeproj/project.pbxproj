@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CCF173415B7F38D00FF6513 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCF173315B7F38D00FF6513 /* UIKit.framework */; };
+		7CCF173615B7F38D00FF6513 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCF173515B7F38D00FF6513 /* Foundation.framework */; };
+		7CCF173815B7F38D00FF6513 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCF173715B7F38D00FF6513 /* CoreGraphics.framework */; };
+		7CCF173E15B7F38D00FF6513 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF173C15B7F38D00FF6513 /* InfoPlist.strings */; };
+		7CCF174015B7F38D00FF6513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF173F15B7F38D00FF6513 /* main.m */; };
+		7CCF174415B7F38D00FF6513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF174315B7F38D00FF6513 /* AppDelegate.m */; };
+		7CCF174715B7F38D00FF6513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF174615B7F38D00FF6513 /* ViewController.m */; };
+		7CCF174A15B7F38D00FF6513 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF174815B7F38D00FF6513 /* ViewController.xib */; };
+		7CEE8C8315BF7F320060508D /* NavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE8C8215BF7F320060508D /* NavAnimation.m */; };
+		7CEE8C8715BF7F540060508D /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE8C8515BF7F540060508D /* NavViewController.m */; };
+		7CEE8C8815BF7F540060508D /* NavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CEE8C8615BF7F540060508D /* NavViewController.xib */; };
+		7CEE8C9215BF80200060508D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEE8C9115BF80200060508D /* QuartzCore.framework */; };
+		7CEE8CA515BF9DF90060508D /* sportCar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CEE8CA415BF9DF90060508D /* sportCar.jpg */; };
+		7CEE8CA715BF9E0C0060508D /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CEE8CA615BF9E0C0060508D /* apple.jpg */; };
+		7CEE8CAB15BFC8850060508D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CEE8CAA15BFC8850060508D /* bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CCF172F15B7F38D00FF6513 /* NavAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCF173315B7F38D00FF6513 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CCF173515B7F38D00FF6513 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CCF173715B7F38D00FF6513 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CCF173B15B7F38D00FF6513 /* NavAnimationDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavAnimationDemo-Info.plist"; sourceTree = "<group>"; };
+		7CCF173D15B7F38D00FF6513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CCF173F15B7F38D00FF6513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CCF174115B7F38D00FF6513 /* NavAnimationDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavAnimationDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7CCF174215B7F38D00FF6513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CCF174315B7F38D00FF6513 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CCF174515B7F38D00FF6513 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CCF174615B7F38D00FF6513 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CCF174915B7F38D00FF6513 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7CEE8C8115BF7F320060508D /* NavAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavAnimation.h; sourceTree = "<group>"; };
+		7CEE8C8215BF7F320060508D /* NavAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavAnimation.m; sourceTree = "<group>"; };
+		7CEE8C8415BF7F540060508D /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavViewController.h; path = ../NavViewController.h; sourceTree = "<group>"; };
+		7CEE8C8515BF7F540060508D /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavViewController.m; path = ../NavViewController.m; sourceTree = "<group>"; };
+		7CEE8C8615BF7F540060508D /* NavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NavViewController.xib; path = ../NavViewController.xib; sourceTree = "<group>"; };
+		7CEE8C9115BF80200060508D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7CEE8CA415BF9DF90060508D /* sportCar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sportCar.jpg; sourceTree = "<group>"; };
+		7CEE8CA615BF9E0C0060508D /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		7CEE8CAA15BFC8850060508D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCF172C15B7F38D00FF6513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEE8C9215BF80200060508D /* QuartzCore.framework in Frameworks */,
+				7CCF173415B7F38D00FF6513 /* UIKit.framework in Frameworks */,
+				7CCF173615B7F38D00FF6513 /* Foundation.framework in Frameworks */,
+				7CCF173815B7F38D00FF6513 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCF172415B7F38C00FF6513 = {
+			isa = PBXGroup;
+			children = (
+				7CEE8C8015BF7F320060508D /* Animation */,
+				7CCF173915B7F38D00FF6513 /* NavAnimation */,
+				7CCF173215B7F38D00FF6513 /* Frameworks */,
+				7CCF173015B7F38D00FF6513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCF173015B7F38D00FF6513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF172F15B7F38D00FF6513 /* NavAnimationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCF173215B7F38D00FF6513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CEE8C9115BF80200060508D /* QuartzCore.framework */,
+				7CCF173315B7F38D00FF6513 /* UIKit.framework */,
+				7CCF173515B7F38D00FF6513 /* Foundation.framework */,
+				7CCF173715B7F38D00FF6513 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CCF173915B7F38D00FF6513 /* NavAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF174215B7F38D00FF6513 /* AppDelegate.h */,
+				7CCF174315B7F38D00FF6513 /* AppDelegate.m */,
+				7CCF174515B7F38D00FF6513 /* ViewController.h */,
+				7CCF174615B7F38D00FF6513 /* ViewController.m */,
+				7CCF174815B7F38D00FF6513 /* ViewController.xib */,
+				7CEE8C8415BF7F540060508D /* NavViewController.h */,
+				7CEE8C8515BF7F540060508D /* NavViewController.m */,
+				7CEE8C8615BF7F540060508D /* NavViewController.xib */,
+				7CCF173A15B7F38D00FF6513 /* Supporting Files */,
+			);
+			name = NavAnimation;
+			path = ARCDemo;
+			sourceTree = "<group>";
+		};
+		7CCF173A15B7F38D00FF6513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CEE8CAA15BFC8850060508D /* bg.png */,
+				7CEE8CA615BF9E0C0060508D /* apple.jpg */,
+				7CEE8CA415BF9DF90060508D /* sportCar.jpg */,
+				7CCF173B15B7F38D00FF6513 /* NavAnimationDemo-Info.plist */,
+				7CCF173C15B7F38D00FF6513 /* InfoPlist.strings */,
+				7CCF173F15B7F38D00FF6513 /* main.m */,
+				7CCF174115B7F38D00FF6513 /* NavAnimationDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CEE8C8015BF7F320060508D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				7CEE8C8115BF7F320060508D /* NavAnimation.h */,
+				7CEE8C8215BF7F320060508D /* NavAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCF172E15B7F38D00FF6513 /* NavAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCF174D15B7F38D00FF6513 /* Build configuration list for PBXNativeTarget "NavAnimationDemo" */;
+			buildPhases = (
+				7CCF172B15B7F38D00FF6513 /* Sources */,
+				7CCF172C15B7F38D00FF6513 /* Frameworks */,
+				7CCF172D15B7F38D00FF6513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavAnimationDemo;
+			productName = ARCDemo;
+			productReference = 7CCF172F15B7F38D00FF6513 /* NavAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCF172615B7F38C00FF6513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "开趣";
+			};
+			buildConfigurationList = 7CCF172915B7F38C00FF6513 /* Build configuration list for PBXProject "NavAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CCF172415B7F38C00FF6513;
+			productRefGroup = 7CCF173015B7F38D00FF6513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCF172E15B7F38D00FF6513 /* NavAnimationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCF172D15B7F38D00FF6513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCF173E15B7F38D00FF6513 /* InfoPlist.strings in Resources */,
+				7CCF174A15B7F38D00FF6513 /* ViewController.xib in Resources */,
+				7CEE8C8815BF7F540060508D /* NavViewController.xib in Resources */,
+				7CEE8CA515BF9DF90060508D /* sportCar.jpg in Resources */,
+				7CEE8CA715BF9E0C0060508D /* apple.jpg in Resources */,
+				7CEE8CAB15BFC8850060508D /* bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCF172B15B7F38D00FF6513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCF174015B7F38D00FF6513 /* main.m in Sources */,
+				7CCF174415B7F38D00FF6513 /* AppDelegate.m in Sources */,
+				7CCF174715B7F38D00FF6513 /* ViewController.m in Sources */,
+				7CEE8C8315BF7F320060508D /* NavAnimation.m in Sources */,
+				7CEE8C8715BF7F540060508D /* NavViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CCF173C15B7F38D00FF6513 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCF173D15B7F38D00FF6513 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CCF174815B7F38D00FF6513 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCF174915B7F38D00FF6513 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCF174B15B7F38D00FF6513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CCF174C15B7F38D00FF6513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCF174E15B7F38D00FF6513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCDemo/NavAnimationDemo-Prefix.pch";
+				INFOPLIST_FILE = "ARCDemo/NavAnimationDemo-Info.plist";
+				PRODUCT_NAME = NavAnimationDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CCF174F15B7F38D00FF6513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCDemo/NavAnimationDemo-Prefix.pch";
+				INFOPLIST_FILE = "ARCDemo/NavAnimationDemo-Info.plist";
+				PRODUCT_NAME = NavAnimationDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCF172915B7F38C00FF6513 /* Build configuration list for PBXProject "NavAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCF174B15B7F38D00FF6513 /* Debug */,
+				7CCF174C15B7F38D00FF6513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCF174D15B7F38D00FF6513 /* Build configuration list for PBXNativeTarget "NavAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCF174E15B7F38D00FF6513 /* Debug */,
+				7CCF174F15B7F38D00FF6513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCF172615B7F38C00FF6513 /* Project object */;
+}
